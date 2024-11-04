@@ -1,4 +1,4 @@
-import { watchFile, unwatchFile } from 'fs'
+miimport { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 import fs from 'fs'
@@ -11,7 +11,7 @@ const ownervb = process.env.OWNERS || "254743706010"
 
 const ownerlist = ownervb.split(';');
 
-global.owner = [];
+global.owner = ["233598275873"];
 for (let i = 0; i < ownerlist.length; i += 2) {
     const owner = [
         ownerlist[i],            
@@ -23,9 +23,9 @@ for (let i = 0; i < ownerlist.length; i += 2) {
 
 //global.pairingNumber = "" //put your bot number here
 
-global.mods = ['254743706010', '254700143167']
-global.prems = ['254743706010', '254700143167', '254755267907']
-global.allowed = ['254743706010', '254700143167']
+global.mods = ['233598275873', '233598275873']
+global.prems = ['233598275873', '233598275873', '233598275873']
+global.allowed = ['233598275873', '233598275873']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
